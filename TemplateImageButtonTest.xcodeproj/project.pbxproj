@@ -13,18 +13,7 @@
 		2406520D1A38D2AD00AB61CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2406520B1A38D2AD00AB61CB /* Main.storyboard */; };
 		2406520F1A38D2AD00AB61CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2406520E1A38D2AD00AB61CB /* Images.xcassets */; };
 		240652121A38D2AD00AB61CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 240652101A38D2AD00AB61CB /* LaunchScreen.xib */; };
-		2406521E1A38D2AE00AB61CB /* TemplateImageButtonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406521D1A38D2AE00AB61CB /* TemplateImageButtonTestTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		240652181A38D2AE00AB61CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 240651F61A38D2AD00AB61CB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 240651FD1A38D2AD00AB61CB;
-			remoteInfo = TemplateImageButtonTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		240651FE1A38D2AD00AB61CB /* TemplateImageButtonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateImageButtonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +26,10 @@
 		2406520C1A38D2AD00AB61CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2406520E1A38D2AD00AB61CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		240652111A38D2AD00AB61CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		240652171A38D2AE00AB61CB /* TemplateImageButtonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateImageButtonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2406521C1A38D2AE00AB61CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2406521D1A38D2AE00AB61CB /* TemplateImageButtonTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateImageButtonTestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		240651FB1A38D2AD00AB61CB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		240652141A38D2AE00AB61CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				240652001A38D2AD00AB61CB /* TemplateImageButtonTest */,
-				2406521A1A38D2AE00AB61CB /* TemplateImageButtonTestTests */,
 				240651FF1A38D2AD00AB61CB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				240651FE1A38D2AD00AB61CB /* TemplateImageButtonTest.app */,
-				240652171A38D2AE00AB61CB /* TemplateImageButtonTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,35 +65,10 @@
 				2406520B1A38D2AD00AB61CB /* Main.storyboard */,
 				2406520E1A38D2AD00AB61CB /* Images.xcassets */,
 				240652101A38D2AD00AB61CB /* LaunchScreen.xib */,
-				240652011A38D2AD00AB61CB /* Supporting Files */,
-			);
-			path = TemplateImageButtonTest;
-			sourceTree = "<group>";
-		};
-		240652011A38D2AD00AB61CB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
 				240652021A38D2AD00AB61CB /* Info.plist */,
 				240652031A38D2AD00AB61CB /* main.m */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2406521A1A38D2AE00AB61CB /* TemplateImageButtonTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				2406521D1A38D2AE00AB61CB /* TemplateImageButtonTestTests.m */,
-				2406521B1A38D2AE00AB61CB /* Supporting Files */,
-			);
-			path = TemplateImageButtonTestTests;
-			sourceTree = "<group>";
-		};
-		2406521B1A38D2AE00AB61CB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2406521C1A38D2AE00AB61CB /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = TemplateImageButtonTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +91,6 @@
 			productReference = 240651FE1A38D2AD00AB61CB /* TemplateImageButtonTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		240652161A38D2AE00AB61CB /* TemplateImageButtonTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 240652241A38D2AE00AB61CB /* Build configuration list for PBXNativeTarget "TemplateImageButtonTestTests" */;
-			buildPhases = (
-				240652131A38D2AE00AB61CB /* Sources */,
-				240652141A38D2AE00AB61CB /* Frameworks */,
-				240652151A38D2AE00AB61CB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				240652191A38D2AE00AB61CB /* PBXTargetDependency */,
-			);
-			name = TemplateImageButtonTestTests;
-			productName = TemplateImageButtonTestTests;
-			productReference = 240652171A38D2AE00AB61CB /* TemplateImageButtonTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +102,6 @@
 				TargetAttributes = {
 					240651FD1A38D2AD00AB61CB = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					240652161A38D2AE00AB61CB = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 240651FD1A38D2AD00AB61CB;
 					};
 				};
 			};
@@ -189,7 +119,6 @@
 			projectRoot = "";
 			targets = (
 				240651FD1A38D2AD00AB61CB /* TemplateImageButtonTest */,
-				240652161A38D2AE00AB61CB /* TemplateImageButtonTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,13 +131,6 @@
 				2406520D1A38D2AD00AB61CB /* Main.storyboard in Resources */,
 				240652121A38D2AD00AB61CB /* LaunchScreen.xib in Resources */,
 				2406520F1A38D2AD00AB61CB /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		240652151A38D2AE00AB61CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		240652131A38D2AE00AB61CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2406521E1A38D2AE00AB61CB /* TemplateImageButtonTestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		240652191A38D2AE00AB61CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 240651FD1A38D2AD00AB61CB /* TemplateImageButtonTest */;
-			targetProxy = 240652181A38D2AE00AB61CB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2406520B1A38D2AD00AB61CB /* Main.storyboard */ = {
@@ -301,6 +207,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+				);
 			};
 			name = Debug;
 		};
@@ -336,6 +246,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+				);
 			};
 			name = Release;
 		};
@@ -359,40 +273,6 @@
 			};
 			name = Release;
 		};
-		240652251A38D2AE00AB61CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TemplateImageButtonTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TemplateImageButtonTest.app/TemplateImageButtonTest";
-			};
-			name = Debug;
-		};
-		240652261A38D2AE00AB61CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TemplateImageButtonTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TemplateImageButtonTest.app/TemplateImageButtonTest";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -410,14 +290,6 @@
 			buildConfigurations = (
 				240652221A38D2AE00AB61CB /* Debug */,
 				240652231A38D2AE00AB61CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		240652241A38D2AE00AB61CB /* Build configuration list for PBXNativeTarget "TemplateImageButtonTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				240652251A38D2AE00AB61CB /* Debug */,
-				240652261A38D2AE00AB61CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
